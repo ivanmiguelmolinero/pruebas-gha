@@ -1,4 +1,4 @@
-def suma(a,     b):
+def suma(a,      b):
     """
     Función a la que se le pasan 2 números (a y b) y te devuelve su suma.
     Args:
