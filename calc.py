@@ -9,7 +9,7 @@ def suma(a, b):
     return a + b
 
 
-def escribir(fpath,    data_in):
+def escribir(fpath, data_in):
     """
     Función que escribe en un archivo
     Args:
