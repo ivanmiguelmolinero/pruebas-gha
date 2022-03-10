@@ -1,12 +1,12 @@
-def suma(a, b):
+def suma(x, y):
     """
-    Función a la que se le pasan 2 números (a y b) y te devuelve su suma.
+    Función a la que se le pasan 2 números (x e y) y te devuelve su suma.
     Args:
-        a (int/float): Primer valor a sumar
-        b (int/float): Segundo valor a sumar
+        x (int/float): Primer valor a sumar
+        y (int/float): Segundo valor a sumar
     return: a+b
     """
-    return a + b
+    return x + y
 
 
 def escribir(fpath, data_in):
