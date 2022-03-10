@@ -4,7 +4,8 @@ from selenium import webdriver
 base_url = "https://www.amazon.in"
 # declare and initialize driver variable
 driver = webdriver.Chrome(
-    executable_path="C:/Users/ivijo/Documents/Vermont/pruebas-gha/Selenium/drivers/chromedriver.exe"
+    # executable_path = "C:\Users\ivijo\Documents\Vermont\pruebas-gha\Test_Sln\drivers\chromedriver.exe"
+    # executable_path= "./Test_Sln/drivers/chromedriver.exe"
 )
 # browser should be loaded in maximized window
 driver.maximize_window()
