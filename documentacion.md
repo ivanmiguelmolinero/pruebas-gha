@@ -4,6 +4,7 @@
 
  * [Docker](#Docker)
   * [Kafka y Docker desde cero.](#configurar-kafka-y-docker-desde-cero)
+ * [Kafka](#Kafka)
 
 ## Docker
 
@@ -19,3 +20,9 @@ Para configura todo desde cero debes descargar Kafka y Zookeeper como se ha dich
  * Con el comando `apt install python3-pip` instalamos _Python3_ y _pip_ necesarios para poder ejecutar el programa "Kafka_json.py" e instalar paquetes adicionales respectivamente.
  * Con el comando `apt install vim` instalamos _Vim_ necesario para poder modificar los archivos de texto.
  * Con el comando `pip3 install kafka-python` isntalamos el módulo _Kafka_ necesario para que el programa funcione.
+
+## Kafka
+
+Apache Kafka es una plataforma de transmisión de eventos distribuidos de código abierto utilizada por miles de empresas para canalizaciones de datos de alto rendimiento, análisis de transmisión e integración de datos. Se basa principalmente en dos programas:
+
+ * **Kafka Producer**: 
