@@ -4,7 +4,7 @@ from calc import suma, escribir
 
 # Run Test | Debug Test
 def test_suma():
-    assert suma(1, 1) == 2
+    assert suma(2, 2) == 4
 
 
 @pytest.mark.parametrize(
