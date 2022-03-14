@@ -25,4 +25,10 @@ Para configura todo desde cero debes descargar Kafka y Zookeeper como se ha dich
 
 Apache Kafka es una plataforma de transmisión de eventos distribuidos de código abierto utilizada por miles de empresas para canalizaciones de datos de alto rendimiento, análisis de transmisión e integración de datos. Se basa principalmente en dos programas:
 
- * **Kafka Producer**: 
+ * **Kafka Consumer**: 
+
+Kafka Consumer se conecta al servidor para recoger (consumir) datos del _topic_ seleccionado. Las particiones de los _topics_ está dividida a través de los consumidores del grupo. Cuando nuevos consumidores llegan al grupo y otros se van, estas particiones son reasignadas en lo que se conoce como _rebalanceo_ del grupo.
+
+ * **Kafka Producer**:
+
+Kafka Producer es conceptualmente mucho más simple que el _consumer_ ya que no necesita grupo de coordinación. El productor mapea cada mensaje de una partición del topic y envía una petición al líder de esa partición.
